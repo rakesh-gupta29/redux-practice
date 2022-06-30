@@ -1,0 +1,40 @@
+html{
+  scroll-behavior: smooth;
+}
+.App{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-image: url("./components/assets/images/Group 6236.jpg");
+  background-position: fixed;
+  overflow: hidden;
+  background-color: black;
+}
+
+body::-webkit-scrollbar {
+  width: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+  outline: 1px solid black;
+  border-radius: 20px;
+}
+.flicking-viewport {
+  transition: height 500ms;
+}
+.flicking-arrow-prev::before, 
+.flicking-arrow-prev::after, 
+.flicking-arrow-next::before, 
+.flicking-arrow-next::after {
+  background-color: rebeccapurple;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.cNNJIt:disabled{
+  display: none;
+}

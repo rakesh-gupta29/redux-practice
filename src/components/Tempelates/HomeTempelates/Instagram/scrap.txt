@@ -1,0 +1,30 @@
+<Box style={{display:'flex',justifyContent:'center',alignItems:'center',width:'100%',height: '150vh',border:'2px solid red'}}>
+
+            <Box className={classes.BoxInstagram}>
+                <Grid container spacing={3} style={{ width: '100%' }} alignItems='flex-end'>
+                    <Grid item xs={12} sm={3}>  
+                        <img src={'./images/mask_group_27.png'}
+                            style={{ height: '80rem', width: '100%' }}
+                        />
+                    </Grid>
+                    <Grid item xs={12} sm={3}>
+
+                        <img src={'./images/Mask Group 28.png'}
+                            style={{ height: '50rem', width: '100%' }}
+                        />
+                    </Grid>
+                    <Grid item xs={12} sm={3}>
+                        <img src={'./images/Mask Group 29.png'}
+                            style={{ height: '50rem', width: '100%' }}
+                        />
+                    </Grid>
+                    <Grid item xs={12} sm={3}>
+                        <img src={'./images/Mask Group 30.png'}
+                            style={{ height: '50rem', width: '100%' }}
+                        />
+                    </Grid>
+
+                </Grid>
+            </Box>
+
+        </Box>

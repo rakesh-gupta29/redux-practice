@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Ben;
+  src: url(./components/assets/fonts/Ben/Ben-Regular.ttf);
+}
+@font-face {
+  font-family: Ben-Italic;
+  src: url(./components/assets/fonts/Ben/Ben-Italic.ttf);
+}
+
+@font-face {
+  font-family: Gopher;
+  src: url(./components/assets/fonts/Gopher/Gopher-Regular.ttf);
+}
+@font-face {
+  font-family: Gopher-Italic;
+  src: url(./components/assets/fonts/Gopher/GopherText-Italic.ttf);
+}
+
+@font-face {
+  font-family: Gopher-Medium;
+  src: url(./components/assets/fonts/Gopher/GopherText-Medium.ttf);
+}
+
+@font-face {
+  font-family: Gopher-black;
+  src: url(./components/assets/fonts/Gopher/GopherText-Black.ttf);
+}
+
+@font-face {
+  font-family: Gopher-hairline;
+  src: url(./components/assets/fonts/Gopher/Gopher-Hairline.ttf);
+}
+@font-face {
+  font-family: Gopher-Heavy;
+  src: url(./components/assets/fonts/Gopher/GopherText-Heavy.ttf);
+}
+@font-face {
+  font-family: Gopher-HeavyItalic;
+  src: url(./components/assets/fonts/Gopher/GopherText-HeavyItalic.ttf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+html {
+  font-size: 62.5%;
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+li{
+  list-style: none;
+  text-decoration: none;
+}

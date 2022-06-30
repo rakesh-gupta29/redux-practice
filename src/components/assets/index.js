@@ -1,0 +1,1 @@
+export * from './img/Group 6068.png'
